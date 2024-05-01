@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("assets/mario.jpg");
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("assets/soil.png");
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image: url("assets/pipe.png");
+    background-size: cover;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -ms-user-select: none;
+}
