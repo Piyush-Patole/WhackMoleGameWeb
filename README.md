@@ -1,4 +1,4 @@
-# WhackMoleGameWeb
+# Whack A Mole Challenge !
 
 Demo : https://piyush-patole.github.io/WhackMoleGameWeb/
 
